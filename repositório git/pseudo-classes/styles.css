@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana;
+    background-color: rgb(43, 48, 48);
+    color: aliceblue;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: aqua;
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid color rgb(0, 225, 255)
+
+}
+
+h2 {
+    color: aqua;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.caixa {
+    width: 530px;
+    background-color: rgb(43, 48, 48);
+    padding: 30px;
+    text-align: center;
+    border: 2px solid color rgb(0, 238, 255);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.caixa:hover {
+    background-color: aqua;
+    color: rgb(36, 36, 36);
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px; color: aquamarine(46, 46, 46);
+}
+.btn-download {
+    background-color: rgb(0, 182, 121);
+    color: azure;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: rgb(0, 117, 78);
+}
+
+.btn-download:active {
+    background-color: brown;
+    transform: scale(0.95);
+}
+
+input {
+    max-width: 400px;
+    padding:  12px;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(0, 114, 114);
+    box-shadow: 0 0 10px;
+}

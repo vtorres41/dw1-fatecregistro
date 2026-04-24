@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <header>
+        <h1>Tabela no HTML5:</h1>
+    </header>
+    <main>
+        <!-- Estrutura mínima de uma tabela-->
+         <table border="1">
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+
+            </tr>
+            <!-- Linha 2-->
+             <tr>
+                <td>Dado 4</td>
+                <td>Dado 6</td>
+                <td>Dado 7</td>
+                <td>Dado 8</td>
+
+
+
+             </tr>
+         </table>
+
+         <h3>Tabela dos Cabeçalhos</h3>
+         <table border="1">
+            <!-- Linha 1-->
+            <tr>
+                <th>PRODUTO</th>
+                <th>PREÇO</th>
+            </tr>
+            <!-- Linha 2-->
+             <tr>
+                <td>NOTEBOOK</td>
+                <td>R$ 3.000,00</td>
+             </tr>
+         </table>
+
+         <h3>Tabela com título</h3>
+         <table border="1">
+            <caption>tabela de preços</caption>
+            <tr>
+                <th>Serviço</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Pintura residêncial</td>
+                <td>R$ 2.500,00</td>
+            </tr>
+
+         </table>
+
+         <h3>Tabela de Estrutura semântica</h3>
+         <table border="1">
+            <caption>Vendas no mês</caption>
+            <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>10</td>
+                <td>R$ 20,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total::</td>
+                <td>R$200,00</td>
+            </tr>
+
+         </table>
+        
+         </table>
+
+         <h3>mesclando linhas</h3>
+         <table border="1">
+            <caption>Vendas no mês</caption>
+            <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Mouse</td>
+                <td>10</td>
+                <td>R$ 20,00</td>
+            </tr>
+            <tr>
+                <td>Total::</td>
+                <td>R$200,00</td>
+            </tr>
+
+         </table>
+    </main>
+</body>
+</html>

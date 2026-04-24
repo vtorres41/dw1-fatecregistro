@@ -1,0 +1,56 @@
+.caixa {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #ccc;
+}
+
+.static {
+    position: static;
+    background-color: rgb(0, 153, 255);
+}
+
+.relative {
+    position: relative;
+    background-color: aquamarine;
+    top: 50px;
+    left: 200px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border: 1px dashed;
+    background-color: #f0f0f0;
+}
+
+.absolute {
+    position: absolute;
+    margin: 0;
+    background-color: rgb(201, 35, 35);
+    top: -320px;
+    left: 50px;
+    z-index: 2;
+}
+
+.fixed {
+    position: fixed;
+    background-color: blueviolet;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.espaco {
+    height: 900px;
+    background-color: lightskyblue;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: rgb(255, 100, 43);
+}
